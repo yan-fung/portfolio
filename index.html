@@ -1,65 +1,64 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yan Fung</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <main>
-        <header>
-            <a href="./pages/projects.html"target="_blank">Projects</a>
-            <a href="./pages/contact.html" target="_blank">Contact Me</a>
-            <h1>Yan Fung</h1>
-            <h2>Hello world :)</h2>
-            <img src="./images/IMG_2088.JPG" alt="My doggie and I" width="350" height="450">
-        </header>
-        <hr/>
-            <section>
-                <h3>About Me</h3>
-                <p>My name is Yan. \(^v^)/</p>
-                <p>
-                    I always wanted to have a career switch as I really wanted to have more flexibility in my job.
-                    Therefore, I started to explore if there were careers outside of my current awareness. And then I found that coding seemed very interesting to me so I also started to play around on Codecademy, Datacamp and Udemy alongside watching some Youtube tutorials. Afterwards, I decided to join a bootcamp course because I was keen to learn more in-depth with guidance and keep myself accountable. My short term goal is to enhance my coding skills and knowledge and hopefully I can be a developer working in the tech industry.
-                </p>
-            </section>
-            <section>
-                <h3>Qualities</h3>
-                <ol>
-                    <li>Kindness</li>
-                    <li>Creativity</li>
-                    <li>Determination</li>
-                </ol>
-                <h3>Hobbies & Interests</h3>
-                <ul>
-                    <li>Painting - I have been painting for my personal calendar for almost two years.</li>
-                    <li>Reading - I am recently reading a book called Banking On It: How I Disrupted an Industry which is writtered by the founder of Starling Bank</li>
-                    <li>Jogging, hiking & walking - Nature is the best therapist. Don't you agree? :)</li>
-                </ul>
-            </section>
-            <figure>
-                <img src="./images/My artwork.JPG" alt="My painting of September calendar" width="450" height="450">
-                <br />
-                <figcaption>
-                    The September calendar I painted for this month.
-                </figcaption>
-                <br />
-                <img src="./images/Kew Gardens.JPG" alt="Royal Botanic Gardens Kew" width="450" height="450">
-                <br />
-                <figcaption>
-                    Kew Gardens - The place which plant-lovers cannot miss!
-                </figcaption>
-                <br />
-                <img src="./images/Nature.JPG" width="450" height="450" alt="Snowdonia">
-                <figcaption>
-                    Snowdonia - The adventure paradise you'll fall in love with.
-                </figcaption>
-            </figure>
+    <!--=========================== Navbar ===========================-->
+    <nav class="navbar">
+        <h1 class="logo">Yan Fung</h1>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#aboutme-text">About me</a></li>
+            <li><a href="./pages/projects.html">Project</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+        <img src="./images/9004778_menu_list_navigation_options_icon.png" alt="" class="menu-btn">
+    </nav>
+    <!--=========================== Home section ===========================-->
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/yan-fung" target="_blank"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/yan-fung-4082401a4/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://twitter.com/fourfourfung" target="_blank"><i class="bx bxl-twitter"></i></a>
+        </div>
+
+        <!-- home image -->
+        <div class="aboutme-img">
+            <img src="./images/IMG_2088.JPG" width="350" height="450">
+        </div>
+        <div class="aboutme-text">
+            <img src="./images/waving-hand.png" alt="" width="40">
+            <span>HELLO THERE, I AM</span>
+            <h2>YAN FUNG</h2>
+            <p>I always wanted to have a career switch as I really    
+                wanted to have more flexibility in my job.
+                Therefore, I started to explore if there were careers outside of my current awareness. And then I found that coding seemed very interesting to me so I also started to play around on Codecademy, Datacamp and Udemy alongside watching some Youtube tutorials. </br></br>Afterwards, I decided to join a bootcamp course because I was keen to learn more in-depth with guidance and keep myself accountable. My short term goal is to enhance my coding skills and knowledge and hopefully I can be a developer working in the tech industry.
+            </p>
+        </div>
+
+    </section>    
+
+    
+   
+
+
 
 </body>
 
     <footer>
-        &copy; Yan Fung 2022
+       
     </footer>
     </main>
 </html>

@@ -1,0 +1,147 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    padding: 100px 200px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(55, 49, 42, 0.897);
+}
+
+/* Navbar */
+.navbar h1 {
+    color: rgb(225, 116, 121);
+    font-size: 48px;
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 55px;
+    left: 200px;
+}
+
+/* .navbar ul {
+    
+} */
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    position:relative;
+    color: rgb(19, 17, 17);
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 25px;
+    text-align: center;
+    font-family: 'Reem Kufi Ink', sans-serif;;
+}
+
+.navbar ul li a:before {
+    position: absolute;
+    content: '';
+    left: 10;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: rgb(237, 150, 150);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .3s linear;
+}
+
+.navbar ul li a:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.home {
+    margin: 0%;
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: 0.2fr 1.5fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.aboutme-img img {
+    border-radius: 10%;
+}
+
+.aboutme-img {
+    order: 3;
+}
+
+.aboutme-text span {
+    font-size: 48px;
+    color: rgb(193, 126, 126);
+}
+
+.aboutme-text p {
+    font-weight: 300;
+    margin: 0.7rem 0 1rem;
+    text-align: justify;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.social a {
+    margin-bottom: 1rem;
+    font-size: 30px;
+}
+
+.social a:hover {
+    color: rgb(208, 134, 162);
+}
+
+
+/* Mobile device */
+@media (max-width: 1300px) {
+    .navbar{
+        display: block;
+        background-color: rgb(239, 228, 231);
+        border-radius: 50px;
+        line-height: 20px;
+    }
+
+    .navbar ul li {
+        display: block;;
+        margin: 20px;
+        font-size: 48px;
+        padding: 10px;
+    }
+    .navbar h1 {
+        display: block;
+        top: 10px;
+    }
+    .menu-btn {
+        display: block;
+        top: 60px;
+        right: 200px;
+        width: 40px;
+        cursor: pointer;
+    }
+
+    
+}
+    
+
+ 

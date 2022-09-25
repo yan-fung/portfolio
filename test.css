@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    padding: 50px;
+ 
+}
+
+nav h1 {
+    color: rgb(225, 116, 121);
+    font-size: 48px;
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    
+}
+
+nav ul {
+    float: right;
+    margin-right: 25px;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+h2 {
+    color: rgb(243, 148, 137);
+    opacity: 25;
+}
+
+
+#bigger-font-size {
+    font-size: 20px;
+}
+
+#about-me {
+    color: rgb(6, 65, 190);
+    padding-left: 20px;
+}
+
+.profile-pic {
+    padding-left: 20px;
+}
+
+#box:checked + label {
+    outline: 3px solid green;
+}
+
+
+
+a:visited {
+    color: rgb(100, 130, 152);
+}
+
+a:active{
+    color: rgb(225, 12, 182);
+}
+
+
+ p {
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
+
+ }
+
+ /* the above code is to do with positioning, and allows us to use the z-index property below, we will get to positioning a bit later on   */
+ 
+
+
+ a[data-anchor="twitter"] {
+    color: deeppink;
+    text-decoration: none;
+ }
+
+ a[data-anchor="instagram"] {
+    color: hsl(121, 55%, 45%);
+    text-decoration: none;
+ }
+
+ 
+
+
+ 
